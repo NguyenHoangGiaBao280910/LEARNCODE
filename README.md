@@ -27,19 +27,8 @@ Khác biệt hoàn toàn với các website học tập truyền thống chỉ d
 2. **The 6-Dimension Evaluation Engine:** Ma trận giải phẫu câu trả lời độc quyền, kết hợp các khung khoa học giáo dục quốc tế (CER, PER, FCI Benchmark).
 3. **NotebookLM-Style Knowledge Recovery:** Cơ chế tự động chuyển đổi vùng kiến thức hổng thành các đoạn âm thanh giải thích sinh động để người học tự "ngấm" lại tri thức.
 
----
-
-## 🛠️ 3. Công nghệ Sử dụng (Tech Stack)
-
-* **Front-end UI:** [Điền Framework của nhóm, ví dụ: React.js / Next.js / Tailwind CSS]
-* **Back-end API:** [Điền Node.js / Python FastAPI...]
-* **Core AI Engine:** OpenAI GPT-4o API (Prompt Engineering cho Socratic Chatbot & Kết xuất Ma trận Điểm)
-* **Data Visualization:** Chart.js / ECharts (Phụ trách trực quan hóa biểu đồ mạng nhện năng lực)
-* **Audio Engine:** Text-to-Speech Core (Cơ chế chuyển đổi tri thức thiếu hụt thành Podcast)
-
----
-
-## 🌟 4. Chi tiết Các Tính năng Cốt lõi (Core Features Breakdown)
+--- 
+## 🌟 3. Chi tiết Các Tính năng Cốt lõi (Core Features Breakdown)
 
 ### 1️⃣ Topic-Based Learning (Học tập theo Trục Chủ đề)
 * Tri thức Vật lý được tái cấu trúc hoàn toàn dựa theo các trục chủ đề cốt lõi của ngành Lý học (Cơ học, Lực, Năng lượng, Động lượng, Điện học, Sóng) thay vì phân chia cứng nhắc theo khối lớp. Điều này cho phép người học linh hoạt nhảy vượt cấp hoặc tập trung đào sâu vào đúng vùng kiến thức mình đang yếu.
@@ -67,25 +56,3 @@ Khác biệt hoàn toàn với các website học tập truyền thống chỉ d
 
 ### 5️⃣ Personalized Study Planner (Lộ trình Ôn tập Cá nhân hóa)
 * Thuật toán tự động quét dữ liệu từ biểu đồ mạng nhện, đối chiếu với số ngày còn lại trước kỳ thi thực tế của học sinh để tự động thiết lập một thời khóa biểu học tập động. Lộ trình áp dụng cơ chế ôn tập đan xen (Interleaving) giúp tối ưu hóa trí nhớ dài hạn.
-
----
-
-## 🚀 5. Hướng dẫn Cài đặt & Khởi chạy (Installation & Setup)
-
-*(Lưu ý: Phần hướng dẫn kỹ thuật dưới đây hiện đang ở dạng khung cấu trúc chuẩn. Nhóm sẽ cập nhật chính xác các câu lệnh ngay sau khi toàn bộ mã nguồn của các thành viên được tổng hợp đầy đủ).*
-
-```bash
-# 1. Tải kho mã nguồn dự án về máy cục bộ
-git clone [https://github.com/your-username/feynphys-ai.git](https://github.com/your-username/feynphys-ai.git)
-
-# 2. Di chuyển vào thư mục gốc của dự án
-cd feynphys-ai
-
-# 3. Cài đặt toàn bộ các thư viện và gói phụ thuộc (Dependencies)
-npm install
-
-# 4. Cấu hình các khóa bảo mật và biến môi trường (Tạo file .env)
-OPENAI_API_KEY=your_openai_api_key_here
-
-# 5. Khởi chạy dự án ở môi trường Development
-npm run dev
